@@ -1,17 +1,26 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     background-color: rgb(255, 255, 255);
+    
 }
-.promo{
-    background-image: url('MainBg.jpg');  
-    background-position: center; 
+
+.promo {
+    background-image: url('MainBg.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-top: 22px;
+    padding-bottom: 53px;
 }
+
+
+
 
 
 
@@ -23,86 +32,129 @@ body{
     text-justify: middle;
     line-height: 100%;
 }
-.promo img {
-    width: 72px;
-    height: 89px;
-}
+
+
 
 .promo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.promo2 h2{
+
+.promo2 h2 {
     color: #000000;
     font-size: 30px;
     font-weight: 500;
     height: 35px;
 }
-.Icons{
-  display: flex;
-  justify-content: center;
-  word-break: normal;
-  flex-direction: row;
-  /* white-space: normal; */
-}
-.Icons div {
+
+.Icons {
     display: flex;
+    justify-content: center;
+    word-break: normal;
+    flex-direction: row;
+
+}
+
+.Icons div {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
 }
+
 .Icons div img {
-    width: auto; 
+    width: auto;
     max-width: 100%;
-    height: auto; 
+    height: auto;
 }
+
 .Icons div p {
     margin: 0;
     padding: 0;
-    text-align: center; 
-    word-wrap: break-word; 
+    text-align: center;
+    word-wrap: break-word;
     max-width: 100%;
+    width: 360px;
 }
 
-.Icons2{
+.Icons2 {
     display: flex;
 }
-.present{
+
+.present {
     display: flex;
 }
 
 
-.promo__title{
+.promo__title {
     text-transform: uppercase;
     text-align: center;
     font-weight: 900;
-
-    color:#F9BF3B;
+    color: #F9BF3B;
     font-size: 41px;
 }
 
-.promo__title_big{
+.promo__title_big {
     color: #ffffff;
     font-size: 80px;
     font-weight: 900;
 }
 
 
-.logo{
+.logo {
     width: 170px;
-    margin: 0 auto;
+    margin: 0 auto 53px auto;
     text-align: center;
 }
 
-.logo__img{
+.logo__img {
+    width: 72px;
+    height: 89px;
     margin-bottom: 13px;
 }
 
-.logo__text{
-font-weight: 500;
-font-size: 16px;
-text-transform: uppercase;
+.logo__text {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
+
+.promo__btn {
+    background: #FF4D00;
+    width: 315px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-bottom: 75px ;
+    
+    border: none;
+
+}
+
+.promo__btn:hover{
+    background: black;
+    transition: 0.5s;
+    color: #FF4D00;
+    box-shadow: 4px 4px 8px 5px #ff4d008e;
+}
+
+
+.promo__text{
+    margin-bottom: 75px;
+    width: 1140px;
+    justify-self: center;
+    margin-top: 20px;
+}
+.promo_p{
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
