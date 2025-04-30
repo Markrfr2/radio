@@ -10,21 +10,15 @@ body {
 }
 
 .promo {
-    background-image: url('MainBg.jpg');
+    background-image: url('Images/MainBg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     padding-top: 22px;
     padding-bottom: 53px;
+
 }
-
-
-
-
-
-
-
 .promo p {
     color: #fff;
     font-weight: 500;
@@ -32,60 +26,6 @@ body {
     text-justify: middle;
     line-height: 100%;
 }
-
-
-
-.promo2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.promo2 h2 {
-    color: #000000;
-    font-size: 30px;
-    font-weight: 500;
-    height: 35px;
-}
-
-.Icons {
-    display: flex;
-    justify-content: center;
-    word-break: normal;
-    flex-direction: row;
-
-}
-
-.Icons div {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Icons div img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.Icons div p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    word-wrap: break-word;
-    max-width: 100%;
-    width: 360px;
-}
-
-.Icons2 {
-    display: flex;
-}
-
-.present {
-    display: flex;
-}
-
-
 .promo__title {
     text-transform: uppercase;
     text-align: center;
@@ -133,18 +73,15 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
     margin-bottom: 75px ;
-    
     border: none;
-
 }
-
+ 
 .promo__btn:hover{
     background: black;
     transition: 0.5s;
     color: #FF4D00;
     box-shadow: 4px 4px 8px 5px #ff4d008e;
 }
-
 
 .promo__text{
     margin-bottom: 75px;
@@ -155,6 +92,81 @@ body {
 .promo_p{
     color: #ffffff;
     text-transform:uppercase;
-    margin: 0 auto;
+    text-align: center;
     margin-bottom: 10px;
 }
+.promo__text FREE{
+  color: #9b1717;  
+}
+.promo__img{
+  display: block;
+  margin: auto;
+}
+
+span{
+    color: #F9BF3B;
+}
+
+
+.radio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efefef;
+}
+
+.radio2 h2{
+    color: #000000;
+    font-size: 30px;
+    font-weight:bold;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.Divider{
+margin-top: 14px;
+margin-bottom:15px ;
+}
+.radio2__text {
+font-size: 23px;
+margin-bottom: 27px;
+}
+.Icons {
+  display: flex;
+  margin-bottom: 25px;
+}
+.Icons div{
+    margin: 15px;
+}
+
+.Icons div p {
+    width: 360px;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.Icons2 {
+    display: flex;
+}
+.radio3{
+   background-color: #000000;
+}
+.radio3 p{
+    color: #fff;
+    text-align: right;
+    width: 750px;
+
+}
+.present {
+    display: flex;
+}
+
+
+
+
+
+
+
+
