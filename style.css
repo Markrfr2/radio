@@ -6,7 +6,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: rgb(255, 255, 255);
-    
+    color: #fff
 }
 
 .promo {
@@ -147,20 +147,54 @@ margin-bottom: 27px;
     font-weight: 300;
 }
 
-.Icons2 {
-    display: flex;
-}
 .radio3{
    background-color: #000000;
+   padding-top: 100px;
 }
-.radio3 p{
-    color: #fff;
-    text-align: right;
+#radio3-paragraph h2{
+    text-transform: uppercase;
+    color:#F9BF3B ;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+#radio3-paragraph {
+    margin: 0;
+    color: #ffffff;
     width: 750px;
+    text-align: right;
+    justify-self: right;
+    margin-left:780px ;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
 
+}
+#radio3-paragraph p {
+    margin-top: 1em;
+}
+#radio3-down-paragraph {
+    font-weight: 500;
 }
 .present {
     display: flex;
+}
+#Online-radio {
+}
+.radio4{
+    background: url('Images/Bg.jpg') no-repeat center/cover;
+    justify-items: center;
+}
+.radio4 h2{
+    padding-top: 80px;
+    font-weight: 400;
+}
+.Icons2 {
+    display: flex;
+    
+}
+.Icons2 div p {
+    color: #efefef;
+    margin-bottom: 102px;
 }
 
 
