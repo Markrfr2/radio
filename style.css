@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -77,6 +78,7 @@ body {
     transition: 0.5s;
     margin-bottom: 75px ;
     border: none;
+
 }
  
 .promo__btn:hover{
@@ -159,57 +161,178 @@ span{
     font-weight: 300;
 }
 
-.radio3{
+.online{
    background-color: #000000;
    padding-top: 100px;
+   padding-bottom: 100px;
 }
-#radio3-paragraph h2{
+.online__title {
     text-transform: uppercase;
     color:#F9BF3B ;
     font-size: 30px;
     margin-bottom: 16px;
+    text-align: right;
 }
-#radio3-paragraph {
-    margin: 0;
+.online__wrapper{
     color: #ffffff;
     width: 750px;
     text-align: right;
     justify-self: right;
-    margin-left:780px ;
     font-size: 16px;
     font-weight: 300;
     position: relative;
 
 }
-#radio3-paragraph p {
+.online__wrapper p {
     margin-top: 1em;
+    position: relative;
+    z-index: 2;
 }
-#radio3-down-paragraph {
+.online__text-down {
     font-weight: 500;
 }
-.present {
-    display: flex;
+
+.online__img{
+        width: 615px;
+        height: 361px;
+        position: absolute;
+
+        top: 1%;
+        transform: translate(-50%, 0%);
+        left: -20%;
+        z-index: 1;
 }
-#Online-radio {
-}
-.radio4{
-    background: url('Images/Bg.jpg') no-repeat center/cover;
-    justify-items: center;
+
+.training{
+    background: url('Images/Bg.jpg') no-repeat center / cover;
+   
     padding-bottom: 102px;
 }
-.radio4 h2{
+.training h2{
     padding-top: 80px;
     font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin-bottom: 12px;
 }
 .Icons2 {
     display: flex;
+    margin-top: 40px;
 }
-.Icons2 div p {
-    color: #efefef;
+
+.Circle{
+    background: url('Images/Circle.png') center center / cover no-repeat;
+    margin: 0 auto;
+
+    width: 150px;
+    height: 150px;
 }
-.Icons2 div {
+
+
+
+
+
+
+.divider2{
+ margin: 0 auto;
+  justify-self: center;
+}
+.training-bloc__circle{
+    width: 118px;
+    height: 118px;
+    background: rgba(249, 191, 59, 1);
+    border-radius: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+
+}
+
+.training__circle img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.training-bloc__text{
+    font-weight: 300;
+    font-size: 16px;
+
    
+    text-align: center;
+    color: #EFEFEF;
+    width: 224px;
 }
-.Icons2 img{
-    background: url('Images/Circle.png') ;
+.present{
+    background-color: rgba(239, 239, 239, 1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.present img{
+    display: block;
+    margin: 0 auto;
+}
+
+.present p{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(37, 37, 37, 1);
+    text-align: center;
+    margin-top: 80px;
+  
+}
+.present button{
+    background: #FF4D00;
+    width: 315px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    text-transform: uppercase;
+    transition: 0.5s;
+   margin-top: 60px;
+    border: none;
+}
+.webinar{
+    background-color:rgba(15, 11, 11, 1);
+}
+.webinar img{
+    margin: 0 auto;
+    display: block;
+}
+.webinar__text{
+    text-align: center;
+}
+.webinar__text1{
+font-weight: 500;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 40px;
+
+}
+.webinar__text2{
+font-weight: 900;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color:  rgba(249, 191, 59, 1);
+margin-top: 20px;
+}
+.webinar__text3{
+font-weight: 500;
+font-size: 23px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 50px;
 }
